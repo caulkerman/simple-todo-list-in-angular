@@ -9,6 +9,8 @@ angular.module("app", []);
 		/////Start your coding here//////
 		// $scope.test = "this is controller test";
 		
+		document.getElementById("input").focus();
+
 		$scope.itemsArray = [];
 		
 		$scope.addItems = function(items) {
@@ -18,7 +20,7 @@ angular.module("app", []);
 				return;
 			} else {
 				$scope.itemsArray.push(items);
-			// console.log($scope.itemsArray);
+			// console.log($scope.itemsArray.length);
 			$scope.items = "";
 			}
 			
@@ -27,7 +29,7 @@ angular.module("app", []);
 		$scope.deleteItem = function(index) {
 			$scope.itemsArray.splice(index, 1);
 			// console.log(index);
-			// console.log($scope.itemsArray);
+			console.log($scope.itemsArray, index, $scope.itemsArray.length);
 		}
 
 		

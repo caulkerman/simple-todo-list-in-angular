@@ -12,7 +12,7 @@
 	</div>
 	<div class="input-div">
 		<label for="list-items">List Items:</label>
-		<input ng-model="items" type="text" placeholder="Enter a List Item" name="list-items" ng-keydown="$event.which === 13 && addItems(items)" /><button class="add-to-do-item-button" ng-click="addItems(items)">Add To Do Item</button>
+		<input ng-model="items" id="input" type="text" placeholder="Enter a List Item" name="list-items" ng-keydown="$event.which === 13 && addItems(items)" /><button class="add-to-do-item-button" ng-click="addItems(items)">Add To Do Item</button>
 	</div>
 	<div class="hr">
 		<hr style="width: 97%">
@@ -42,7 +42,7 @@
 
 
 					<!-- ///////SCRIPTS////////-->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
