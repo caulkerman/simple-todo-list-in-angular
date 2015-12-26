@@ -24,7 +24,7 @@
 				<th>Delete</th>
 			</tr>
 
-			<tr ng-repeat="toDoLists in itemsArray track by $index">
+			<tr class="ng-cloak" ng-repeat="toDoLists in itemsArray track by $index">
 				<td><input type="checkbox"></td>
 				<td>{{toDoLists}}</td>
 				<td><button class="delete-button" ng-click="deleteItem($index)">&#10006</button></td>

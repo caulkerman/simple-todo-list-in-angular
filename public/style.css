@@ -6,6 +6,10 @@ html, body {
 	background-color: #ffffcc;
 }
 
+.ng-cloak {
+    display: none !important;
+}
+
 h1 {
 	font-size: 3em;
 }
@@ -13,7 +17,7 @@ h1 {
 .container-div {
 	margin: 0 auto;
 	width: 80%;
-	height: 600px;
+	/*height: 600px;*/
 	border-left: solid 3px gray;
 	padding-bottom: 20px;
 	background-color: #fff;
