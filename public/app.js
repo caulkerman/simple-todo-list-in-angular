@@ -13,9 +13,15 @@ angular.module("app", []);
 		
 		$scope.addItems = function(items) {
 			// console.log(items);
-			$scope.itemsArray.push(items);
+			if (items === "") {
+				alert("Enter an Item");
+				return;
+			} else {
+				$scope.itemsArray.push(items);
 			// console.log($scope.itemsArray);
 			$scope.items = "";
+			}
+			
 		}
 
 		$scope.deleteItem = function(index) {
