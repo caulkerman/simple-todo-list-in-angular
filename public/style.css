@@ -71,6 +71,10 @@ h1 {
 	background-color:  #80b3ff ;
 }
 
+hr {
+	width: 97%;
+}
+
 .hr {
 	width: 79%;
 	margin: 5px 0 40px 90px;
