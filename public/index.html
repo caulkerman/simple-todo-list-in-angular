@@ -11,8 +11,11 @@
 		<h1>To Do List</h1>
 	</div>
 	<div class="input-div">
-		<label for="list-items">List Items:</label>
-		<input ng-model="items" id="input" type="text" placeholder="Enter a List Item" name="list-items" ng-keydown="$event.which === 13 && addItems(items)" /><button class="add-to-do-item-button" ng-click="addItems(items)">Add To Do Item</button>
+		<form>
+			<label for="list-items">List Items:</label>
+			<input ng-model="items" id="input" type="text" placeholder="Enter a List Item" name="list-items"/>
+			<button class="add-to-do-item-button" ng-click="addItems(items)">Add To Do Item</button>
+		</form>
 	</div>
 	<div class="hr">
 		<hr style="width: 97%">

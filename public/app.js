@@ -16,7 +16,7 @@ angular.module("app", []);
 		$scope.addItems = function(items) {
 			// console.log(items);
 			if (items === "") {
-				alert("Enter an Item");
+				alert("You must first enter an item into the input box");
 				return;
 			} else {
 				$scope.itemsArray.push(items);

@@ -34,7 +34,7 @@ h1 {
 }
 
 .input-div {
-	margin-left: 60px;
+	margin-left: 100px;
 }
 
 .input-div input {
@@ -73,7 +73,7 @@ h1 {
 
 .hr {
 	width: 79%;
-	margin: 5px 0 40px 53px;
+	margin: 5px 0 40px 90px;
 }
 
 p {
@@ -103,7 +103,7 @@ p {
 
 table {
 	width: 77.5%;
-	margin-left: 60px;
+	margin-left: 100px;
 }
 
 td {
